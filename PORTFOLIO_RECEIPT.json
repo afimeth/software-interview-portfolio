@@ -2361,7 +2361,10 @@
           "title": "Senior/Staff Backend Engineer",
           "url": "https://jobs.ashbyhq.com/dualentry/bb7da28b-f93b-42ff-87dd-10fde58bb359",
           "location": "Remote (EMEA, EU, LATAM, UK, NORDICS)",
-          "is_remote": null
+          "is_remote": null,
+          "secondary_locations": [
+            "Remote (Canada)"
+          ]
         }
       ],
       "absent_from_returned_board": [
@@ -2377,7 +2380,12 @@
           "title": "Senior Product Engineer",
           "url": "https://jobs.ashbyhq.com/livekit/463e2769-bb85-4429-96a3-3a175eb228cd",
           "location": "North America",
-          "is_remote": true
+          "is_remote": true,
+          "secondary_locations": [
+            "APJ",
+            "San Francisco, CA (Hybrid)",
+            "EMEA"
+          ]
         }
       ],
       "absent_from_returned_board": [],
@@ -2391,7 +2399,11 @@
           "title": "OSS & Product Engineer",
           "url": "https://jobs.ashbyhq.com/pipekit/e52eee8a-2d57-4127-94cc-41952aa38dcb",
           "location": "Remote",
-          "is_remote": true
+          "is_remote": true,
+          "secondary_locations": [
+            "US East Coast",
+            "Europe"
+          ]
         }
       ],
       "absent_from_returned_board": [],
@@ -2415,7 +2427,10 @@
           "title": "Design Engineer",
           "url": "https://jobs.ashbyhq.com/tradeify/e5571e41-3c4f-4493-9de7-60b80e3969d0",
           "location": "Remote \u2013 USA",
-          "is_remote": true
+          "is_remote": true,
+          "secondary_locations": [
+            "Remote \u2013 EMEA"
+          ]
         }
       ],
       "absent_from_returned_board": [],
@@ -2449,5 +2464,14 @@
   "duplicate_review_scope": "Initial GitHub metadata inventory: 22 repositories, 12 public. Relevant public lab implementations and public UI/mobile/profile README surfaces inspected; forks not attributed as original work. Private code and exhaustive histories were not inspected. Existing three labs remain unchanged. New labs cover distinct scenarios.",
   "optional_performance_repo": "Not created: backend and Go benchmark harnesses already supply local evidence without another duplicate project.",
   "demo_url": "https://afimeth.github.io/design-engineering-product-lab/",
-  "estimate_status": "Planning estimates, not measured interview success or experience equivalence."
+  "estimate_status": "Planning estimates, not measured interview success or experience equivalence.",
+  "local_anvil_deployment": {
+    "chain_id": 31337,
+    "status": "0x1",
+    "tx_hash": "0x267d5218198f3f81fe6ad0c26d8003d881b14b2cdc58a1b239b657810cfdda1a",
+    "contract_address": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "gas_used": 385915,
+    "router_source_sha256": "3d4c24b05419d608f8a0ffe01e60dc05377f14747e9a2a044768aa526337e44e",
+    "scope": "ephemeral local Anvil only; no mainnet/testnet network ownership"
+  }
 }
