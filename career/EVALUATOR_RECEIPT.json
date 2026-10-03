@@ -1,0 +1,111 @@
+{
+  "schema": "career-evidence/v1",
+  "commit_sha": "9c21a7afa059a1fe475e94b74f98724366e22827",
+  "tracked_worktree_dirty": false,
+  "ci_run_url": "https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878281",
+  "tests": 12,
+  "failures": 0,
+  "errors": 0,
+  "evaluation": {
+    "schema": "patch-eval/v1",
+    "rubric": {
+      "functional_contract": "12 domain/HTTP checks, required gate",
+      "scope": "only logic.py; fixed owned fixture",
+      "uncertainty": "missing specification => ABSTAIN, never counted as PASS"
+    },
+    "cases": [
+      {
+        "case": "correct",
+        "expected": "PASS",
+        "decision": "PASS",
+        "score": 100,
+        "reason": "Equivalent formatting refactor; domain and HTTP contract retained.",
+        "patch": "--- before/logic.py\n+++ after/logic.py\n@@ -2,7 +2,7 @@\n def normalize(title):\n     if not isinstance(title, str) or not title.strip() or len(title.strip()) > 120:\n         raise ValueError('title must contain 1..120 characters')\n-    return title.strip()\n+    return title.strip()  # preserve contract\n \n def create(tasks, title):\n     task = {'id': len(tasks) + 1, 'title': normalize(title), 'done': False}\n",
+        "patch_sha256": "254e88297b0e5a465c6fe8e55b2ab4288cb752af7510842ff7992b037c3ea2d7",
+        "evidence": {
+          "exit_code": 0,
+          "output": "test_blank (test_app.Domain.test_blank) ... ok\ntest_complete (test_app.Domain.test_complete) ... ok\ntest_create (test_app.Domain.test_create) ... ok\ntest_length (test_app.Domain.test_length) ... ok\ntest_trim (test_app.Domain.test_trim) ... ok\ntest_type (test_app.Domain.test_type) ... ok\ntest_unknown (test_app.Domain.test_unknown) ... ok\ntest_blank_rejected (test_app.HTTP.test_blank_rejected) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 400: 'Bad Request'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\ntest_malformed (test_app.HTTP.test_malformed) ... ok\ntest_page (test_app.HTTP.test_page) ... ok\ntest_roundtrip (test_app.HTTP.test_roundtrip) ... ok\ntest_unknown (test_app.HTTP.test_unknown) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\n\n----------------------------------------------------------------------\nRan 12 tests in 2.614s\n\nOK\n"
+        }
+      },
+      {
+        "case": "blank_validation_removed",
+        "expected": "FAIL",
+        "decision": "FAIL",
+        "score": 0,
+        "reason": "Empty titles admitted.",
+        "patch": "--- before/logic.py\n+++ after/logic.py\n@@ -1,6 +1,6 @@\n \"\"\"Synthetic task-board domain. No external services or model keys.\"\"\"\n def normalize(title):\n-    if not isinstance(title, str) or not title.strip() or len(title.strip()) > 120:\n+    if not isinstance(title, str) or False or len(title.strip()) > 120:\n         raise ValueError('title must contain 1..120 characters')\n     return title.strip()\n \n",
+        "patch_sha256": "eff3c7e48bd1cf51d02adeab340e2c3128785651fd51952f1777dd5895bffa68",
+        "evidence": {
+          "exit_code": 1,
+          "output": "test_blank (test_app.Domain.test_blank) ... FAIL\ntest_complete (test_app.Domain.test_complete) ... ok\ntest_create (test_app.Domain.test_create) ... ok\ntest_length (test_app.Domain.test_length) ... ok\ntest_trim (test_app.Domain.test_trim) ... ok\ntest_type (test_app.Domain.test_type) ... ok\ntest_unknown (test_app.Domain.test_unknown) ... ok\ntest_blank_rejected (test_app.HTTP.test_blank_rejected) ... FAIL\ntest_malformed (test_app.HTTP.test_malformed) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 400: 'Bad Request'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\ntest_page (test_app.HTTP.test_page) ... ok\ntest_roundtrip (test_app.HTTP.test_roundtrip) ... ok\ntest_unknown (test_app.HTTP.test_unknown) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\n\n======================================================================\nFAIL: test_blank (test_app.Domain.test_blank)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpbqamks94\\tests\\test_app.py\", line 8, in test_blank\n    with self.assertRaises(ValueError): normalize('   ')\n         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n======================================================================\nFAIL: test_blank_rejected (test_app.HTTP.test_blank_rejected)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpbqamks94\\tests\\test_app.py\", line 34, in test_blank_rejected\n    def test_blank_rejected(self): self.assertEqual(self.request('/tasks','{\"title\":\" \"}')[0],400)\n                                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 201 != 400\n\n----------------------------------------------------------------------\nRan 12 tests in 2.572s\n\nFAILED (failures=2)\n"
+        }
+      },
+      {
+        "case": "wrong_completion",
+        "expected": "FAIL",
+        "decision": "FAIL",
+        "score": 0,
+        "reason": "Completion acknowledges without changing state.",
+        "patch": "--- before/logic.py\n+++ after/logic.py\n@@ -12,6 +12,6 @@\n def complete(tasks, task_id):\n     for task in tasks:\n         if task['id'] == task_id:\n-            task['done'] = True\n+            task['done'] = False\n             return task\n     raise KeyError(task_id)\n",
+        "patch_sha256": "aa7cb3253a3e8ff4da13bb7e7285ac7523aa438878d3a1932fb8d79b991a1aed",
+        "evidence": {
+          "exit_code": 1,
+          "output": "test_blank (test_app.Domain.test_blank) ... ok\ntest_complete (test_app.Domain.test_complete) ... FAIL\ntest_create (test_app.Domain.test_create) ... ok\ntest_length (test_app.Domain.test_length) ... ok\ntest_trim (test_app.Domain.test_trim) ... ok\ntest_type (test_app.Domain.test_type) ... ok\ntest_unknown (test_app.Domain.test_unknown) ... ok\ntest_blank_rejected (test_app.HTTP.test_blank_rejected) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 400: 'Bad Request'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\ntest_malformed (test_app.HTTP.test_malformed) ... ok\ntest_page (test_app.HTTP.test_page) ... ok\ntest_roundtrip (test_app.HTTP.test_roundtrip) ... FAIL\ntest_unknown (test_app.HTTP.test_unknown) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\n\n======================================================================\nFAIL: test_complete (test_app.Domain.test_complete)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmprn3kfhrl\\tests\\test_app.py\", line 15, in test_complete\n    tasks=[];create(tasks,'a');self.assertTrue(complete(tasks,1)['done'])\n                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_roundtrip (test_app.HTTP.test_roundtrip)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmprn3kfhrl\\tests\\test_app.py\", line 33, in test_roundtrip\n    self.assertTrue(json.loads(self.request('/tasks')[1])[0]['done'])\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 12 tests in 2.570s\n\nFAILED (failures=2)\n"
+        }
+      },
+      {
+        "case": "wrong_id",
+        "expected": "FAIL",
+        "decision": "FAIL",
+        "score": 0,
+        "reason": "First ID violates contract and roundtrip.",
+        "patch": "--- before/logic.py\n+++ after/logic.py\n@@ -5,7 +5,7 @@\n     return title.strip()\n \n def create(tasks, title):\n-    task = {'id': len(tasks) + 1, 'title': normalize(title), 'done': False}\n+    task = {'id': len(tasks), 'title': normalize(title), 'done': False}\n     tasks.append(task)\n     return task\n \n",
+        "patch_sha256": "ecfb0cce31af892162d14a3603ee9a59d9649557b459c79ac7bfe0c71ae57f1b",
+        "evidence": {
+          "exit_code": 1,
+          "output": "test_blank (test_app.Domain.test_blank) ... ok\ntest_complete (test_app.Domain.test_complete) ... ERROR\ntest_create (test_app.Domain.test_create) ... FAIL\ntest_length (test_app.Domain.test_length) ... ok\ntest_trim (test_app.Domain.test_trim) ... ok\ntest_type (test_app.Domain.test_type) ... ok\ntest_unknown (test_app.Domain.test_unknown) ... ok\ntest_blank_rejected (test_app.HTTP.test_blank_rejected) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 400: 'Bad Request'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\ntest_malformed (test_app.HTTP.test_malformed) ... ok\ntest_page (test_app.HTTP.test_page) ... ok\ntest_roundtrip (test_app.HTTP.test_roundtrip) ... FAIL\ntest_unknown (test_app.HTTP.test_unknown) ... C:\\Users\\anilc\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>\n  _warnings.warn(self.warn_message, ResourceWarning)\nok\n\n======================================================================\nERROR: test_complete (test_app.Domain.test_complete)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpkx82lb2g\\tests\\test_app.py\", line 15, in test_complete\n    tasks=[];create(tasks,'a');self.assertTrue(complete(tasks,1)['done'])\n                                               ~~~~~~~~^^^^^^^^^\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpkx82lb2g\\logic.py\", line 17, in complete\n    raise KeyError(task_id)\nKeyError: 1\n\n======================================================================\nFAIL: test_create (test_app.Domain.test_create)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpkx82lb2g\\tests\\test_app.py\", line 13, in test_create\n    def test_create(self): self.assertEqual(create([], 'a'), {'id':1,'title':'a','done':False})\n                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'id': 0, 'title': 'a', 'done': False} != {'id': 1, 'title': 'a', 'done': False}\n- {'done': False, 'id': 0, 'title': 'a'}\n?                       ^\n\n+ {'done': False, 'id': 1, 'title': 'a'}\n?                       ^\n\n\n======================================================================\nFAIL: test_roundtrip (test_app.HTTP.test_roundtrip)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\anilc\\AppData\\Local\\Temp\\tmpkx82lb2g\\tests\\test_app.py\", line 31, in test_roundtrip\n    self.assertEqual(json.loads(body)['id'],1)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 12 tests in 2.558s\n\nFAILED (failures=2, errors=1)\n"
+        }
+      },
+      {
+        "case": "missing_spec",
+        "expected": "ABSTAIN",
+        "decision": "ABSTAIN",
+        "score": null,
+        "reason": "Requested priority sorting has no specified order or tie-breaker.",
+        "evidence": null
+      }
+    ],
+    "matched_expected": true,
+    "limitations": [
+      "Synthetic mutations, no live model scoring",
+      "No arbitrary patch execution or security sandbox",
+      "No semantic judge or model comparison",
+      "Static HTML contract check; no browser execution in this fixture",
+      "Score is a binary contract gate, not engineering quality ranking"
+    ]
+  },
+  "claim_count": 9,
+  "unsupported_claims": [
+    "Employment history or years",
+    "Production scale",
+    "Independent audit",
+    "Live provider evaluation",
+    "Mainnet ownership",
+    "Browser E2E for task fixture"
+  ],
+  "measured_at_utc": "2026-10-03T20:50:09.700047+00:00",
+  "source_ci": [
+    {
+      "conclusion": "success",
+      "headSha": "9c21a7afa059a1fe475e94b74f98724366e22827",
+      "url": "https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878301",
+      "workflowName": "Evidence consistency"
+    },
+    {
+      "conclusion": "success",
+      "headSha": "9c21a7afa059a1fe475e94b74f98724366e22827",
+      "url": "https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878281",
+      "workflowName": "Career evidence"
+    }
+  ]
+}

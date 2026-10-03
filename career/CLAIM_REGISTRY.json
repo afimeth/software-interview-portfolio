@@ -1,7 +1,7 @@
 {
   "schema": "career-evidence-ledger/v1",
   "measured_date": "2026-10-03",
-  "provenance": "Fresh AI-assisted public laboratory work. No historical employment claims. Existing CI verified live by exact SHA; new evaluator CI pending until publication.",
+  "provenance": "Fresh AI-assisted public laboratory work. No historical employment claims. Existing lab and new evaluator CI verified live by exact SHA.",
   "education": "User-provided metadata, not independently verified in this session; original documents excluded.",
   "claims": [
     {
@@ -206,25 +206,25 @@
     },
     {
       "claim_id": "POW-009",
-      "status": "IMPLEMENTED",
+      "status": "MEASURED",
       "name": "coding-agent evaluator fixture",
       "repo": "https://github.com/afimeth/software-interview-portfolio",
-      "commit": "7256d072c2e26a37849254de3f740349919a02b5",
-      "ci": "https://github.com/afimeth/software-interview-portfolio/actions/workflows/evidence.yml",
-      "ci_status": "PENDING",
+      "commit": "9c21a7afa059a1fe475e94b74f98724366e22827",
+      "ci": "https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878281",
+      "ci_status": "success",
       "reported_checks": 12,
       "safe_cv_wording": "Built an AI-assisted, provider-free full-stack task fixture and deterministic patch-review harness with domain/HTTP regression tests, three rejected mutations, a passing refactor and explicit specification abstention.",
       "limitations": "Fixed synthetic code patches only; no hostile-code sandbox, live model benchmark, browser E2E, production deployment or independent review.",
-      "demo": "https://github.com/afimeth/software-interview-portfolio/tree/7256d072c2e26a37849254de3f740349919a02b5/evaluator",
+      "demo": "https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator",
       "evidence": [
-        "https://github.com/afimeth/software-interview-portfolio/tree/7256d072c2e26a37849254de3f740349919a02b5/evaluator"
+        "https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator"
       ],
       "avoid": [
         "Evaluated production coding agents",
         "Measured model quality",
         "Independent reviewer approval"
       ],
-      "recall_prompt": "Verify POW-009: checkout https://github.com/afimeth/software-interview-portfolio at 7256d072c2e26a37849254de3f740349919a02b5; run python evaluator/evaluate.py and python -m unittest discover -s evaluator/tests (set PYTHONPATH=evaluator); inspect evaluator/docs/REVIEW_RECEIPT.md and explain FAIL versus ABSTAIN."
+      "recall_prompt": "Verify POW-009: checkout https://github.com/afimeth/software-interview-portfolio at 9c21a7afa059a1fe475e94b74f98724366e22827; run python evaluator/evaluate.py and python -m unittest discover -s evaluator/tests (set PYTHONPATH=evaluator); inspect evaluator/docs/REVIEW_RECEIPT.md and explain FAIL versus ABSTAIN."
     }
   ]
 }

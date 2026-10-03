@@ -118,13 +118,13 @@
       "problem": "Patches can pass a happy path while silently breaking a contract.",
       "built": "Built an AI-assisted, provider-free full-stack task fixture and deterministic patch-review harness with domain/HTTP regression tests, three rejected mutations, a passing refactor and explicit specification abstention.",
       "repo": "https://github.com/afimeth/software-interview-portfolio",
-      "source": "https://github.com/afimeth/software-interview-portfolio/tree/7256d072c2e26a37849254de3f740349919a02b5/evaluator",
+      "source": "https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator",
       "tests_ci": {
         "checks": 12,
-        "url": "https://github.com/afimeth/software-interview-portfolio/actions/workflows/evidence.yml",
-        "status": "PENDING"
+        "url": "https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878281",
+        "status": "success"
       },
-      "demo": "https://github.com/afimeth/software-interview-portfolio/tree/7256d072c2e26a37849254de3f740349919a02b5/evaluator",
+      "demo": "https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator",
       "limitations": "Fixed synthetic code patches only; no hostile-code sandbox, live model benchmark, browser E2E, production deployment or independent review.",
       "claim_id": "POW-009"
     }
