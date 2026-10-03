@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Task review fixture</title>
+<h1>Task board</h1><form id="form"><label>Task <input id="title" maxlength="120" required></label><button>Add</button></form><p id="status" role="status"></p><ul id="tasks"></ul>
+<script>
+async function render(){
+ const response=await fetch('/tasks');if(!response.ok)throw Error('Load failed');
+ const items=await response.json();document.querySelector('#tasks').replaceChildren();
+ for(const task of items){const li=document.createElement('li');li.textContent=task.title;
+ const button=document.createElement('button');button.textContent=task.done?'Completed':'Complete';button.disabled=task.done;
+ button.onclick=async()=>{try{const r=await fetch(`/tasks/${task.id}/complete`,{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('Update failed');await render()}catch(e){document.querySelector('#status').textContent=e.message}};
+ li.append(button);document.querySelector('#tasks').append(li);}
+}
+document.querySelector('#form').onsubmit=async event=>{event.preventDefault();try{
+ const r=await fetch('/tasks',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:document.querySelector('#title').value})});
+ if(!r.ok)throw Error('Task rejected');document.querySelector('#title').value='';document.querySelector('#status').textContent='Saved';await render();
+}catch(e){document.querySelector('#status').textContent=e.message}};
+render().catch(e=>document.querySelector('#status').textContent=e.message);
+</script></html>
