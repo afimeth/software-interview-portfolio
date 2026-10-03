@@ -1,0 +1,2453 @@
+{
+  "schema": "software-interview-portfolio/v1",
+  "measured_at_utc": "2026-10-03T16:45:33.985298+00:00",
+  "repositories": [
+    {
+      "name": "agent-runtime-recovery-lab",
+      "url": "https://github.com/afimeth/agent-runtime-recovery-lab",
+      "is_private": false,
+      "head_sha": "b3b2287093acfc4cefb3e3796f4696d81d78f7e5",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37134986507,
+        "headSha": "b3b2287093acfc4cefb3e3796f4696d81d78f7e5",
+        "status": "completed",
+        "url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507",
+        "workflowName": "tests"
+      },
+      "jobs": [
+        {
+          "name": "tests (windows-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507/job/111237591286"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507/job/111237591419"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507/job/111237591455"
+        },
+        {
+          "name": "tests (windows-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507/job/111237591586"
+        }
+      ],
+      "locally_retested_count": 10
+    },
+    {
+      "name": "evidence-rag-eval-lab",
+      "url": "https://github.com/afimeth/evidence-rag-eval-lab",
+      "is_private": false,
+      "head_sha": "35920533825bd9f899ce3d25191d2bd9b1fc694d",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37134994525,
+        "headSha": "35920533825bd9f899ce3d25191d2bd9b1fc694d",
+        "status": "completed",
+        "url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525",
+        "workflowName": "tests"
+      },
+      "jobs": [
+        {
+          "name": "tests (windows-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525/job/111237614082"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525/job/111237614161"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525/job/111237614175"
+        },
+        {
+          "name": "tests (windows-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525/job/111237614203"
+        }
+      ],
+      "locally_retested_count": 11
+    },
+    {
+      "name": "scoped-tool-gateway-lab",
+      "url": "https://github.com/afimeth/scoped-tool-gateway-lab",
+      "is_private": false,
+      "head_sha": "3b6e627aa044e2e0261389da901e43d4f6d71d12",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37135003386,
+        "headSha": "3b6e627aa044e2e0261389da901e43d4f6d71d12",
+        "status": "completed",
+        "url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386",
+        "workflowName": "tests"
+      },
+      "jobs": [
+        {
+          "name": "tests (windows-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386/job/111237642049"
+        },
+        {
+          "name": "tests (windows-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386/job/111237642148"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386/job/111237642149"
+        },
+        {
+          "name": "tests (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386/job/111237642174"
+        }
+      ],
+      "locally_retested_count": 9
+    },
+    {
+      "name": "durable-backend-systems-lab",
+      "url": "https://github.com/afimeth/durable-backend-systems-lab",
+      "is_private": false,
+      "head_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37137575754,
+        "headSha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+        "status": "completed",
+        "url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+        "workflowName": "CI"
+      },
+      "jobs": [
+        {
+          "name": "verify (ubuntu-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754/job/111245119920"
+        },
+        {
+          "name": "verify (windows-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754/job/111245120024"
+        },
+        {
+          "name": "verify (windows-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754/job/111245120028"
+        },
+        {
+          "name": "verify (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754/job/111245120076"
+        }
+      ],
+      "baseline": {
+        "schema": "interview-lab-evidence/v1",
+        "measured_at_utc": "2026-10-03T16:36:36.746491+00:00",
+        "commit_sha": "5c9a832c8a1deacc7e032df8d37bc266911e77e9",
+        "tracked_worktree_dirty": false,
+        "platform": "Windows",
+        "architecture": "AMD64",
+        "toolchain": {
+          "python": "3.14.7",
+          "sqlite": "3.50.4"
+        },
+        "summary": {
+          "tests": 16,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "checks": [
+          {
+            "command": [
+              "python.exe",
+              "app.py",
+              "demo"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "97c16227701450f5b6812a575b946328e0f51565570b4bbcdd1ae333268f9899",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "python.exe",
+              "app.py",
+              "benchmark"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "64e05897c2391df1f77c358c30ff7bc559093d551f5a0d1420f4abc575885663",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "passed": true,
+        "safe_cv_claim": "Built a SQLite transfer API with transactional idempotency, atomic outbox jobs, concurrent overdraft/replay tests, and process-crash rollback verification.",
+        "unsupported_claims": "SQLite single-host writer locking; no PostgreSQL, ORM, migrations beyond initial schema, auth, TLS, tenant isolation, cloud deployment, currency conversion, real accounting compliance, external sink exactly-once guarantee, sustained load, or production operations.",
+        "ci_run_url": null
+      },
+      "safe_cv_claim": "Built a SQLite transfer API with transactional idempotency, atomic outbox jobs, concurrent overdraft/replay tests, and process-crash rollback verification."
+    },
+    {
+      "name": "realtime-product-systems-lab",
+      "url": "https://github.com/afimeth/realtime-product-systems-lab",
+      "is_private": false,
+      "head_sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37137915377,
+        "headSha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+        "status": "completed",
+        "url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377",
+        "workflowName": "CI"
+      },
+      "jobs": [
+        {
+          "name": "verify (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377/job/111246124215"
+        },
+        {
+          "name": "verify (ubuntu-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377/job/111246124331"
+        },
+        {
+          "name": "verify (windows-latest, 3.11)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377/job/111246124426"
+        },
+        {
+          "name": "verify (windows-latest, 3.14)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377/job/111246124573"
+        }
+      ],
+      "baseline": {
+        "schema": "interview-lab-evidence/v1",
+        "measured_at_utc": "2026-10-03T16:43:35.351055+00:00",
+        "commit_sha": "16a17f69d7127b60fe8e8a60b735b0f35f8fe670",
+        "tracked_worktree_dirty": false,
+        "platform": "Windows",
+        "architecture": "AMD64",
+        "toolchain": {
+          "python": "3.14.7",
+          "sqlite": "3.50.4"
+        },
+        "summary": {
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "checks": [
+          {
+            "command": [
+              "python.exe",
+              "app.py",
+              "demo"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "b3b8812ceb21fbd25e2a8d7c2cee98c14ff8d660b18632743258683a5ba42364",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "passed": true,
+        "safe_cv_claim": "Built and tested a local async state feed with cursor replay, snapshot recovery, bounded slow-consumer queues, and observable CLI metrics.",
+        "unsupported_claims": "No WebSocket, ASGI, WebRTC, media transport, browser subscription UI, durable restart state, multi-process fanout, auth/TLS, distributed ordering, or internet deployment. StreamWriter/OS buffering is separate from application queue bounds. Active pre-subscription sockets have a two-second timeout but no global connection cap. Core event objects are trusted in-process data.",
+        "ci_run_url": null
+      },
+      "safe_cv_claim": "Built and tested a local async state feed with cursor replay, snapshot recovery, bounded slow-consumer queues, and observable CLI metrics."
+    },
+    {
+      "name": "workflow-runtime-oss-lab",
+      "url": "https://github.com/afimeth/workflow-runtime-oss-lab",
+      "is_private": false,
+      "head_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37137592153,
+        "headSha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+        "status": "completed",
+        "url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+        "workflowName": "CI"
+      },
+      "jobs": [
+        {
+          "name": "verify (windows-latest, 1.24.x)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153/job/111245169217"
+        },
+        {
+          "name": "verify (ubuntu-latest, 1.24.x)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153/job/111245169328"
+        },
+        {
+          "name": "verify (ubuntu-latest, 1.23.x)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153/job/111245169363"
+        },
+        {
+          "name": "verify (windows-latest, 1.23.x)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153/job/111245169364"
+        }
+      ],
+      "baseline": {
+        "schema": "interview-lab-evidence/v1",
+        "measured_at_utc": "2026-10-03T16:37:04.453857+00:00",
+        "commit_sha": "2d04065f943073a26e948fe7448b295dd0e5437f",
+        "tracked_worktree_dirty": false,
+        "platform": "Windows",
+        "architecture": "AMD64",
+        "toolchain": {
+          "go": "go version go1.27.1 windows/amd64"
+        },
+        "summary": {
+          "tests": 17,
+          "failed": 0
+        },
+        "checks": [
+          {
+            "command": [
+              "go",
+              "version"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "e37270413fda49039b4f31dd90726df0e94c163cf9bca2f62fd40a47d12b5db1",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "go",
+              "test",
+              "-json",
+              "-count=1",
+              "./..."
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "7b493bb7defcdd234806f47579352d514c7815454992f88841bb932fda015f0f",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "go",
+              "vet",
+              "./..."
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "go",
+              "test",
+              "-bench",
+              "BenchmarkDAG",
+              "-benchtime=5x",
+              "-run",
+              "^$",
+              "./..."
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "b1f3a2e42f71c59ee428ccc2f28f71b5cf2edbcb0725abbae9eff167cbdb93b4",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "passed": true,
+        "safe_cv_claim": "Built a Go DAG execution lab with bounded concurrency, adapter contracts, explicit safe retries, cancellation, and conservative journal recovery.",
+        "unsupported_claims": "One scheduler owns one journal; no multi-process lock, distributed scheduler, Kubernetes/Argo integration, containers, durable directory fsync on all platforms, leases, remote plugins, untrusted-code isolation, backoff timing, upstream OSS contribution, or production on-call history. Adapters must honor cancellation; a noncooperative adapter can prevent completion. Cancellation does not roll back completed effects. Direct Run callers must bind the workflow spec as the CLI does.",
+        "ci_run_url": null
+      },
+      "safe_cv_claim": "Built a Go DAG execution lab with bounded concurrency, adapter contracts, explicit safe retries, cancellation, and conservative journal recovery."
+    },
+    {
+      "name": "solidity-multichain-security-lab",
+      "url": "https://github.com/afimeth/solidity-multichain-security-lab",
+      "is_private": false,
+      "head_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37137599899,
+        "headSha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+        "status": "completed",
+        "url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+        "workflowName": "CI"
+      },
+      "jobs": [
+        {
+          "name": "verify (ubuntu-latest, default)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899/job/111245192688"
+        },
+        {
+          "name": "verify (windows-latest, unoptimized)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899/job/111245192838"
+        },
+        {
+          "name": "verify (ubuntu-latest, unoptimized)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899/job/111245192886"
+        },
+        {
+          "name": "verify (windows-latest, default)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899/job/111245192887"
+        }
+      ],
+      "baseline": {
+        "schema": "interview-lab-evidence/v1",
+        "measured_at_utc": "2026-10-03T16:36:49.257586+00:00",
+        "commit_sha": "342e12caad6fc9bde2be05512ee0c99f831a3ae9",
+        "tracked_worktree_dirty": false,
+        "platform": "Windows",
+        "architecture": "AMD64",
+        "toolchain": {
+          "forge": "forge Version: 1.8.4\nCommit SHA: 50af4efe189dc64bad2b75ed6990b835de66c4ae\nBuild Timestamp: 2026-10-01T13:50:42.600348400Z (1790862642)\nBuild Profile: dist",
+          "solc": "0.8.28",
+          "profile": "default"
+        },
+        "summary": {
+          "reported_tests": 16,
+          "passed": 16,
+          "tests": [
+            {
+              "name": "invariant_Conservation()",
+              "status": "Success",
+              "kind": {
+                "Invariant": {
+                  "runs": 128,
+                  "calls": 4096,
+                  "reverts": 0,
+                  "workers": 1,
+                  "metrics": {
+                    "test/Router.t.sol:Handler.swap": {
+                      "calls": 4096,
+                      "reverts": 0,
+                      "discards": 0
+                    }
+                  },
+                  "failed_corpus_replays": 0,
+                  "optimization_best_value": null
+                }
+              },
+              "invariant_predicates": [
+                {
+                  "name": "invariant_Conservation",
+                  "status": "Success"
+                },
+                {
+                  "name": "invariant_NoRouterResidue",
+                  "status": "Success"
+                }
+              ]
+            },
+            {
+              "name": "testAccessControl()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 32580
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testCallerDomainSeparation()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 11634
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testChainDomainSeparation()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 23127
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testDonationNotCountedAsOutput()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 135977
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testExpiredRoute()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 46929
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testFuzz_OutputAndConservation(uint96,uint16)",
+              "status": "Success",
+              "kind": {
+                "Fuzz": {
+                  "first_case": {
+                    "gas": 177015,
+                    "stipend": 21392
+                  },
+                  "runs": 256,
+                  "mean_gas": 155561,
+                  "median_gas": 155575,
+                  "failed_corpus_replays": 0
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testFuzz_SlippageAlwaysReverts(uint96)",
+              "status": "Success",
+              "kind": {
+                "Fuzz": {
+                  "first_case": {
+                    "gas": 166764,
+                    "stipend": 21240
+                  },
+                  "runs": 256,
+                  "mean_gas": 145532,
+                  "median_gas": 145500,
+                  "failed_corpus_replays": 0
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testReentrancyRejected()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 460734
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testRejectingRecipientRollsBack()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 233801
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testReplayRejected()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 162226
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testRouteMeasuresOutput()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 125465
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testSlippageRollsBackNonceAndBalances()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 296500
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testUnapprovedAdapter()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 72020
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testZeroMinimum()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 46591
+                }
+              },
+              "invariant_predicates": null
+            },
+            {
+              "name": "testZeroRecipient()",
+              "status": "Success",
+              "kind": {
+                "Unit": {
+                  "gas": 44348
+                }
+              },
+              "invariant_predicates": null
+            }
+          ]
+        },
+        "checks": [
+          {
+            "command": [
+              "forge",
+              "--version"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "e40b2af5f1374688147219796f61cb85b59a0f48d56d6c601a4f7ce7b0e9af1a",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "forge",
+              "test",
+              "--json"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "27caecedd35ffd77999b129f5c7fdcfd8e5866f1ff120418f0523145b8ce1e42",
+            "stderr_sha256": "716fa8ec18a4be13bce6bf513ee2ca5f6177b17337ff3176b2ae378e4b34e101"
+          },
+          {
+            "command": [
+              "forge",
+              "snapshot",
+              "--snap",
+              "evidence/gas-snapshot.txt"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "082de89c71eb1441656b148211df8c189f834e6beec67605915277ea217a87aa",
+            "stderr_sha256": "5c0bd409e98f204f5fd76288b2f26cb089ceb9944ef8a004aedb2a72ba0c3f38"
+          },
+          {
+            "command": [
+              "forge",
+              "test",
+              "--gas-report"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "9b39d176e03e43f222fb3780f9fd050d94e8fe55e487bb2c942e42b986d937cf",
+            "stderr_sha256": "fd6ebf1d450f97370abe0aa396080446e5bfba114e2e5bbdf8969e022745e7aa"
+          },
+          {
+            "command": [
+              "forge",
+              "script",
+              "script/Deploy.s.sol:Deploy"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "8c7665ec079fc6ce49c615128b27a0aceb3b6cc8bc9ca5e4cceada42af0c418e",
+            "stderr_sha256": "6025546f5c6661bacad30d8259ed376f257ab8ffb070b846b1ec35c76881df76"
+          }
+        ],
+        "passed": true,
+        "safe_cv_claim": "Built a local Foundry routing-security lab with access-control, replay-domain, slippage and reentrancy tests, fuzz cases, conservation invariants, and gas measurements.",
+        "unsupported_claims": "Native-asset local fixture only: no ERC20 quirks, oracle, MEV mitigation, bridge messaging/finality/relayer verification, Yul/assembly, upgrade safety, mainnet/testnet operations, real multi-network deployment, or independent audit. Owner can allow a malicious adapter; user must trust the allowlist policy. Forced donations may remain stuck. Public receive accepts donations. Gas depends on compiler/profile and fixture. The two invariant predicates are grouped by Foundry 1.8.4 into one reported campaign.",
+        "ci_run_url": null
+      },
+      "safe_cv_claim": "Built a local Foundry routing-security lab with access-control, replay-domain, slippage and reentrancy tests, fuzz cases, conservation invariants, and gas measurements."
+    },
+    {
+      "name": "design-engineering-product-lab",
+      "url": "https://github.com/afimeth/design-engineering-product-lab",
+      "is_private": false,
+      "head_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+      "ci": {
+        "conclusion": "success",
+        "databaseId": 37137669803,
+        "headSha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+        "status": "completed",
+        "url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+        "workflowName": "CI"
+      },
+      "jobs": [
+        {
+          "name": "verify (ubuntu-latest, 24)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803/job/111245398133"
+        },
+        {
+          "name": "verify (windows-latest, 22)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803/job/111245398184"
+        },
+        {
+          "name": "verify (ubuntu-latest, 22)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803/job/111245398204"
+        },
+        {
+          "name": "verify (windows-latest, 24)",
+          "conclusion": "success",
+          "status": "completed",
+          "url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803/job/111245398275"
+        }
+      ],
+      "baseline": {
+        "schema": "interview-lab-evidence/v1",
+        "measured_at_utc": "2026-10-03T16:37:16.487189+00:00",
+        "commit_sha": "404617fb1650cb6708363e92db231c13c55d1292",
+        "tracked_worktree_dirty": false,
+        "platform": "Windows",
+        "architecture": "AMD64",
+        "toolchain": {
+          "node": "v26.7.0",
+          "npm": "12.0.2"
+        },
+        "summary": {
+          "unit_tests": 8,
+          "unit_passed": 8,
+          "browser_expected": 3,
+          "browser_unexpected": 0,
+          "browser_flaky": 0,
+          "performance": {
+            "gzipBytes": 74232,
+            "budgetBytes": 85000,
+            "passed": true,
+            "scope": "built JS + CSS transfer size; not browser latency or Core Web Vitals"
+          }
+        },
+        "checks": [
+          {
+            "command": [
+              "node",
+              "--version"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "fe9da612097c5b1f2808feef32b5685e7a19a607fd96c7d6abe1454f0edc7e1c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "--version"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "2013b258fd4defb17ad242f1c447dd734dd9e1be76761494b4a9a3b6f2797241",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "test",
+              "--",
+              "--reporter=json",
+              "--outputFile=evidence/unit-tests.json"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "2958c3a971b4cd3e0d989000b14332b7290bc8c3a7b820cf7240f095354c8bb3",
+            "stderr_sha256": "35ceb43bbbc711b35dc04c17e2403198c409071a5860a0e12f0eaa1a84d2e12d"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "run",
+              "build"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "e163aa22682006cc0d0128f9ec2a6a87ae5923d0e8b9f7dcf117bfb109d720af",
+            "stderr_sha256": "6da425c16fe28f65b5f074340477974d6dc474d18a5f0104c70afc9d1a510c39"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "run",
+              "budget"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "7a3e1d091241936ac47375c3ac246623e23f4c25782f5177a7b614728293ef4a",
+            "stderr_sha256": "c2aa70541a67563ce95842bfa952a2f4cf96ddcca395f70c6dbe02154924bb78"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "run",
+              "test:e2e"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "a709d7d61f235b3bccc983da80e595cdbe3e779eece9579b7103b5f606c9bf4b",
+            "stderr_sha256": "a1ad0389cceea4bb2ec26470a110d40e030b01f4ace40429767bacd8fa7f44a8"
+          },
+          {
+            "command": [
+              "npm.cmd",
+              "audit",
+              "--audit-level=moderate"
+            ],
+            "exit_code": 0,
+            "stdout_sha256": "6d8c5c8f3d7684adb070417bd608d01ae90aa3dc26a65af03ffda4955f38d9a3",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "passed": true,
+        "safe_cv_claim": "Built a responsive React/TypeScript session journal with stateful review/filtering, validated persisted settings, keyboard/modal checks, automated accessibility checks, and a measured asset-size budget.",
+        "unsupported_claims": "Synthetic local journal; no brokerage, trading enforcement, backend, auth, financial advice, analytics/conversion uplift, live market data, professional design-tool history, broad browser matrix, manual screen-reader audit or complete WCAG certification. Axe checks cover exercised desktop/modal/mobile states only. Gzip budget is not Core Web Vitals. Unit tests use storage/dialog fixtures; Chromium tests use real browser APIs.",
+        "ci_run_url": null
+      },
+      "safe_cv_claim": "Built a responsive React/TypeScript session journal with stateful review/filtering, validated persisted settings, keyboard/modal checks, automated accessibility checks, and a measured asset-size budget."
+    }
+  ],
+  "ci_receipts": [
+    {
+      "repo": "workflow-runtime-oss-lab",
+      "matrix": "evidence-ubuntu-latest-1.23.x",
+      "sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 17,
+        "failed": 0
+      }
+    },
+    {
+      "repo": "workflow-runtime-oss-lab",
+      "matrix": "evidence-ubuntu-latest-1.24.x",
+      "sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 17,
+        "failed": 0
+      }
+    },
+    {
+      "repo": "workflow-runtime-oss-lab",
+      "matrix": "evidence-windows-latest-1.23.x",
+      "sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 17,
+        "failed": 0
+      }
+    },
+    {
+      "repo": "workflow-runtime-oss-lab",
+      "matrix": "evidence-windows-latest-1.24.x",
+      "sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 17,
+        "failed": 0
+      }
+    },
+    {
+      "repo": "solidity-multichain-security-lab",
+      "matrix": "evidence-ubuntu-latest-default",
+      "sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "reported_tests": 16,
+        "passed": 16,
+        "tests": [
+          {
+            "name": "invariant_Conservation()",
+            "status": "Success",
+            "kind": {
+              "Invariant": {
+                "runs": 128,
+                "calls": 4096,
+                "reverts": 0,
+                "workers": 1,
+                "metrics": {
+                  "test/Router.t.sol:Handler.swap": {
+                    "calls": 4096,
+                    "reverts": 0,
+                    "discards": 0
+                  }
+                },
+                "failed_corpus_replays": 0,
+                "optimization_best_value": null
+              }
+            },
+            "invariant_predicates": [
+              {
+                "name": "invariant_Conservation",
+                "status": "Success"
+              },
+              {
+                "name": "invariant_NoRouterResidue",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "name": "testAccessControl()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 32580
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testCallerDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 11634
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testChainDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 23127
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testDonationNotCountedAsOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 135977
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testExpiredRoute()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46929
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_OutputAndConservation(uint96,uint16)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 176943,
+                  "stipend": 21368
+                },
+                "runs": 256,
+                "mean_gas": 155561,
+                "median_gas": 155575,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_SlippageAlwaysReverts(uint96)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 166764,
+                  "stipend": 21240
+                },
+                "runs": 256,
+                "mean_gas": 145532,
+                "median_gas": 145500,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReentrancyRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 460734
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRejectingRecipientRollsBack()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 233801
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReplayRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 162226
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRouteMeasuresOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 125465
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testSlippageRollsBackNonceAndBalances()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 296500
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testUnapprovedAdapter()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 72020
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroMinimum()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46591
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroRecipient()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 44348
+              }
+            },
+            "invariant_predicates": null
+          }
+        ]
+      }
+    },
+    {
+      "repo": "solidity-multichain-security-lab",
+      "matrix": "evidence-ubuntu-latest-unoptimized",
+      "sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "reported_tests": 16,
+        "passed": 16,
+        "tests": [
+          {
+            "name": "invariant_Conservation()",
+            "status": "Success",
+            "kind": {
+              "Invariant": {
+                "runs": 128,
+                "calls": 4096,
+                "reverts": 0,
+                "workers": 1,
+                "metrics": {
+                  "test/Router.t.sol:Handler.swap": {
+                    "calls": 4096,
+                    "reverts": 0,
+                    "discards": 0
+                  }
+                },
+                "failed_corpus_replays": 0,
+                "optimization_best_value": null
+              }
+            },
+            "invariant_predicates": [
+              {
+                "name": "invariant_Conservation",
+                "status": "Success"
+              },
+              {
+                "name": "invariant_NoRouterResidue",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "name": "testAccessControl()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 33358
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testCallerDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 14388
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testChainDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 27731
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testDonationNotCountedAsOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 139575
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testExpiredRoute()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 49504
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_OutputAndConservation(uint96,uint16)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 181728,
+                  "stipend": 21392
+                },
+                "runs": 256,
+                "mean_gas": 160273,
+                "median_gas": 160288,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_SlippageAlwaysReverts(uint96)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 172283,
+                  "stipend": 21240
+                },
+                "runs": 256,
+                "mean_gas": 151051,
+                "median_gas": 150995,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReentrancyRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 706090
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRejectingRecipientRollsBack()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 264944
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReplayRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 167476
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRouteMeasuresOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 128898
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testSlippageRollsBackNonceAndBalances()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 305578
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testUnapprovedAdapter()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 74572
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroMinimum()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 48564
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroRecipient()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46533
+              }
+            },
+            "invariant_predicates": null
+          }
+        ]
+      }
+    },
+    {
+      "repo": "solidity-multichain-security-lab",
+      "matrix": "evidence-windows-latest-default",
+      "sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "reported_tests": 16,
+        "passed": 16,
+        "tests": [
+          {
+            "name": "invariant_Conservation()",
+            "status": "Success",
+            "kind": {
+              "Invariant": {
+                "runs": 128,
+                "calls": 4096,
+                "reverts": 0,
+                "workers": 1,
+                "metrics": {
+                  "test/Router.t.sol:Handler.swap": {
+                    "calls": 4096,
+                    "reverts": 0,
+                    "discards": 0
+                  }
+                },
+                "failed_corpus_replays": 0,
+                "optimization_best_value": null
+              }
+            },
+            "invariant_predicates": [
+              {
+                "name": "invariant_Conservation",
+                "status": "Success"
+              },
+              {
+                "name": "invariant_NoRouterResidue",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "name": "testAccessControl()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 32580
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testCallerDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 11634
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testChainDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 23127
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testDonationNotCountedAsOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 135977
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testExpiredRoute()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46929
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_OutputAndConservation(uint96,uint16)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 177015,
+                  "stipend": 21392
+                },
+                "runs": 256,
+                "mean_gas": 155561,
+                "median_gas": 155575,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_SlippageAlwaysReverts(uint96)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 166764,
+                  "stipend": 21240
+                },
+                "runs": 256,
+                "mean_gas": 145532,
+                "median_gas": 145500,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReentrancyRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 460734
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRejectingRecipientRollsBack()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 233801
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReplayRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 162226
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRouteMeasuresOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 125465
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testSlippageRollsBackNonceAndBalances()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 296500
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testUnapprovedAdapter()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 72020
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroMinimum()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46591
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroRecipient()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 44348
+              }
+            },
+            "invariant_predicates": null
+          }
+        ]
+      }
+    },
+    {
+      "repo": "solidity-multichain-security-lab",
+      "matrix": "evidence-windows-latest-unoptimized",
+      "sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "reported_tests": 16,
+        "passed": 16,
+        "tests": [
+          {
+            "name": "invariant_Conservation()",
+            "status": "Success",
+            "kind": {
+              "Invariant": {
+                "runs": 128,
+                "calls": 4096,
+                "reverts": 0,
+                "workers": 1,
+                "metrics": {
+                  "test/Router.t.sol:Handler.swap": {
+                    "calls": 4096,
+                    "reverts": 0,
+                    "discards": 0
+                  }
+                },
+                "failed_corpus_replays": 0,
+                "optimization_best_value": null
+              }
+            },
+            "invariant_predicates": [
+              {
+                "name": "invariant_Conservation",
+                "status": "Success"
+              },
+              {
+                "name": "invariant_NoRouterResidue",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "name": "testAccessControl()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 33358
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testCallerDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 14388
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testChainDomainSeparation()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 27731
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testDonationNotCountedAsOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 139575
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testExpiredRoute()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 49504
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_OutputAndConservation(uint96,uint16)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 181728,
+                  "stipend": 21392
+                },
+                "runs": 256,
+                "mean_gas": 160273,
+                "median_gas": 160288,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testFuzz_SlippageAlwaysReverts(uint96)",
+            "status": "Success",
+            "kind": {
+              "Fuzz": {
+                "first_case": {
+                  "gas": 172283,
+                  "stipend": 21240
+                },
+                "runs": 256,
+                "mean_gas": 151051,
+                "median_gas": 150995,
+                "failed_corpus_replays": 0
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReentrancyRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 706090
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRejectingRecipientRollsBack()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 264944
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testReplayRejected()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 167476
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testRouteMeasuresOutput()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 128898
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testSlippageRollsBackNonceAndBalances()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 305578
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testUnapprovedAdapter()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 74572
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroMinimum()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 48564
+              }
+            },
+            "invariant_predicates": null
+          },
+          {
+            "name": "testZeroRecipient()",
+            "status": "Success",
+            "kind": {
+              "Unit": {
+                "gas": 46533
+              }
+            },
+            "invariant_predicates": null
+          }
+        ]
+      }
+    },
+    {
+      "repo": "realtime-product-systems-lab",
+      "matrix": "evidence-ubuntu-latest-3.11",
+      "sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "realtime-product-systems-lab",
+      "matrix": "evidence-ubuntu-latest-3.14",
+      "sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "realtime-product-systems-lab",
+      "matrix": "evidence-windows-latest-3.11",
+      "sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "realtime-product-systems-lab",
+      "matrix": "evidence-windows-latest-3.14",
+      "sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "durable-backend-systems-lab",
+      "matrix": "evidence-ubuntu-latest-3.11",
+      "sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "durable-backend-systems-lab",
+      "matrix": "evidence-ubuntu-latest-3.14",
+      "sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "durable-backend-systems-lab",
+      "matrix": "evidence-windows-latest-3.11",
+      "sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "durable-backend-systems-lab",
+      "matrix": "evidence-windows-latest-3.14",
+      "sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "repo": "design-engineering-product-lab",
+      "matrix": "evidence-ubuntu-latest-22",
+      "sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "unit_tests": 8,
+        "unit_passed": 8,
+        "browser_expected": 3,
+        "browser_unexpected": 0,
+        "browser_flaky": 0,
+        "performance": {
+          "gzipBytes": 74232,
+          "budgetBytes": 85000,
+          "passed": true,
+          "scope": "built JS + CSS transfer size; not browser latency or Core Web Vitals"
+        }
+      }
+    },
+    {
+      "repo": "design-engineering-product-lab",
+      "matrix": "evidence-ubuntu-latest-24",
+      "sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "unit_tests": 8,
+        "unit_passed": 8,
+        "browser_expected": 3,
+        "browser_unexpected": 0,
+        "browser_flaky": 0,
+        "performance": {
+          "gzipBytes": 74232,
+          "budgetBytes": 85000,
+          "passed": true,
+          "scope": "built JS + CSS transfer size; not browser latency or Core Web Vitals"
+        }
+      }
+    },
+    {
+      "repo": "design-engineering-product-lab",
+      "matrix": "evidence-windows-latest-22",
+      "sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "unit_tests": 8,
+        "unit_passed": 8,
+        "browser_expected": 3,
+        "browser_unexpected": 0,
+        "browser_flaky": 0,
+        "performance": {
+          "gzipBytes": 74232,
+          "budgetBytes": 85000,
+          "passed": true,
+          "scope": "built JS + CSS transfer size; not browser latency or Core Web Vitals"
+        }
+      }
+    },
+    {
+      "repo": "design-engineering-product-lab",
+      "matrix": "evidence-windows-latest-24",
+      "sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+      "passed": true,
+      "dirty": false,
+      "summary": {
+        "unit_tests": 8,
+        "unit_passed": 8,
+        "browser_expected": 3,
+        "browser_unexpected": 0,
+        "browser_flaky": 0,
+        "performance": {
+          "gzipBytes": 74232,
+          "budgetBytes": 85000,
+          "passed": true,
+          "scope": "built JS + CSS transfer size; not browser latency or Core Web Vitals"
+        }
+      }
+    }
+  ],
+  "targets": [
+    {
+      "company": "DualEntry",
+      "role": "Hardcore Engineer (All Levels)",
+      "posting": "https://jobs.ashbyhq.com/dualentry/f9ba6ac6-e2b9-4870-b5b6-3fa1b5ae0ab0",
+      "posting_status": "ABSENT_FROM_LIVE_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Ship an end-to-end reliable product feature",
+          "evidence": [
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_http_contract",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            },
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "e2e/product.spec.ts",
+              "test_or_measurement": "risk form validates and persists",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/e2e/product.spec.ts",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Debug crash/concurrency failures and justify measured performance",
+          "evidence": [
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_process_killed_inside_transaction_rolls_back; test_concurrent_overdraft",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            },
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "docs/BENCHMARK.json",
+              "test_or_measurement": "200 committed local SQLite transfers",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/docs/BENCHMARK.json",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            },
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": "runtime_test.go",
+              "test_or_measurement": "BenchmarkDAG; TestBoundedConcurrency",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/runtime_test.go",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Inspect an applied AI evidence path without a provider key",
+          "evidence": [
+            {
+              "repo": "evidence-rag-eval-lab",
+              "commit_sha": "35920533825bd9f899ce3d25191d2bd9b1fc694d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_modified_source; test_fabricated_quote; test_abstain",
+              "source_url": "https://github.com/afimeth/evidence-rag-eval-lab/blob/35920533825bd9f899ce3d25191d2bd9b1fc694d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/evidence-rag-eval-lab/actions/runs/37134994525",
+              "ci_status": "success"
+            },
+            {
+              "repo": "scoped-tool-gateway-lab",
+              "commit_sha": "3b6e627aa044e2e0261389da901e43d4f6d71d12",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_concurrent_budget",
+              "source_url": "https://github.com/afimeth/scoped-tool-gateway-lab/blob/3b6e627aa044e2e0261389da901e43d4f6d71d12/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/scoped-tool-gateway-lab/actions/runs/37135003386",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built a SQLite transfer API with transactional idempotency, atomic outbox jobs, concurrent overdraft/replay tests, and process-crash rollback verification.",
+      "remaining_gap": "No current posting found in the returned employer board; no CUDA/kernel, production scale or employment-duration claim.",
+      "estimated_interview_readiness": "Local demo ready now; estimated 1\u20132 days of timed walkthrough practice. Role availability needs confirmation; estimate is not measured.",
+      "application_state": "HOLD_POSTING_CONFIRMATION"
+    },
+    {
+      "company": "DualEntry",
+      "role": "Senior/Staff Backend Engineer",
+      "posting": "https://jobs.ashbyhq.com/dualentry/bb7da28b-f93b-42ff-87dd-10fde58bb359",
+      "posting_status": "OBSERVED_ON_LIVE_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Idempotent accounting-style API with payload conflicts and transactional outbox",
+          "evidence": [
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_replay_returns_previous; test_key_conflict; test_rollback_has_no_partial_debit_or_job; test_http_contract",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Prevent overdraft and duplicate job claims under concurrency",
+          "evidence": [
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_concurrent_overdraft; test_two_connections_same_key; test_claim_concurrency",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Reconcile crash/restart without unsafe external replay",
+          "evidence": [
+            {
+              "repo": "durable-backend-systems-lab",
+              "commit_sha": "f015aa654c3a216a79a2483aed52073b0fb5fb8d",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_process_killed_inside_transaction_rolls_back; test_process_restart_keeps_commit; test_recovery_is_hold_not_retry",
+              "source_url": "https://github.com/afimeth/durable-backend-systems-lab/blob/f015aa654c3a216a79a2483aed52073b0fb5fb8d/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/durable-backend-systems-lab/actions/runs/37137575754",
+              "ci_status": "success"
+            },
+            {
+              "repo": "agent-runtime-recovery-lab",
+              "commit_sha": "b3b2287093acfc4cefb3e3796f4696d81d78f7e5",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_effect_then_failure_holds",
+              "source_url": "https://github.com/afimeth/agent-runtime-recovery-lab/blob/b3b2287093acfc4cefb3e3796f4696d81d78f7e5/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/agent-runtime-recovery-lab/actions/runs/37134986507",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built a SQLite transfer API with transactional idempotency, atomic outbox jobs, concurrent overdraft/replay tests, and process-crash rollback verification.",
+      "remaining_gap": "PostgreSQL/ORM/migration tooling, deployed cloud operations, real accounting-domain production history and advertised 5+ years are not established by this lab.",
+      "estimated_interview_readiness": "Local backend walkthrough ready now; estimated 1\u20132 days rehearsal. PostgreSQL/cloud practice may take additional work and cannot manufacture prior experience.",
+      "application_state": "PORTFOLIO_READY_EXPERIENCE_REVIEW_REQUIRED"
+    },
+    {
+      "company": "LiveKit",
+      "role": "Senior Product Engineer",
+      "posting": "https://jobs.ashbyhq.com/livekit/463e2769-bb85-4429-96a3-3a175eb228cd",
+      "posting_status": "OBSERVED_ON_LIVE_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Reconnect a live state feed without missing events",
+          "evidence": [
+            {
+              "repo": "realtime-product-systems-lab",
+              "commit_sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_wire_live_then_reconnect; test_expired_cursor_gets_snapshot",
+              "source_url": "https://github.com/afimeth/realtime-product-systems-lab/blob/ee0314e2aa275ac5d29a93a61494b9304a8554cd/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Bound slow consumers and expose observable status",
+          "evidence": [
+            {
+              "repo": "realtime-product-systems-lab",
+              "commit_sha": "ee0314e2aa275ac5d29a93a61494b9304a8554cd",
+              "file": "tests/test_app.py",
+              "test_or_measurement": "test_slow_consumer_bounded_and_evicted; test_fast_consumer_survives_slow; test_wire_publish_and_metrics",
+              "source_url": "https://github.com/afimeth/realtime-product-systems-lab/blob/ee0314e2aa275ac5d29a93a61494b9304a8554cd/tests/test_app.py",
+              "ci_url": "https://github.com/afimeth/realtime-product-systems-lab/actions/runs/37137915377",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Ship a TypeScript product interaction and a Go systems primitive",
+          "evidence": [
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "e2e/product.spec.ts",
+              "test_or_measurement": "desktop review, reload persistence, keyboard focus and accessibility",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/e2e/product.spec.ts",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            },
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": "runtime_test.go",
+              "test_or_measurement": "TestDAGOrder; TestCancellationDuringAdapterHolds",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/runtime_test.go",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built and tested a local async state feed with cursor replay, snapshot recovery, bounded slow-consumer queues, and observable CLI metrics. Built a responsive React/TypeScript session journal with stateful review/filtering, validated persisted settings, keyboard/modal checks, automated accessibility checks, and a measured asset-size budget.",
+      "remaining_gap": "Transport is loopback JSON-lines, not WebSocket/WebRTC/media; React journal is a separate surface, not a wired realtime dashboard. No production adoption or advertised 6+ years is established.",
+      "estimated_interview_readiness": "Product and async demos ready now; estimated 2\u20133 days rehearsal and browser-transport practice. Senior experience remains a separate question.",
+      "application_state": "PORTFOLIO_READY_EXPERIENCE_REVIEW_REQUIRED"
+    },
+    {
+      "company": "Pipekit",
+      "role": "OSS & Product Engineer",
+      "posting": "https://jobs.ashbyhq.com/pipekit/e52eee8a-2d57-4127-94cc-41952aa38dcb",
+      "posting_status": "OBSERVED_ON_LIVE_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Schedule a valid DAG with bounded concurrency and an adapter seam",
+          "evidence": [
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": "runtime_test.go",
+              "test_or_measurement": "TestDAGOrder; TestBoundedConcurrency; TestRejectCycle; TestUnknownAdapter",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/runtime_test.go",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Separate safe retry, interrupted recovery and cancellation",
+          "evidence": [
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": "runtime_test.go",
+              "test_or_measurement": "TestExplicitSafeRetry; TestAmbiguousFailureNeverRetries; TestInterruptedRunningBecomesHold; TestCancellationDuringAdapterHolds",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/runtime_test.go",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Protect persisted workflow identity and explain OSS-quality validation",
+          "evidence": [
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": "runtime_test.go",
+              "test_or_measurement": "TestSpecMismatch; TestCorruptJournalFailsClosed; TestNullJournalFailsClosed",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/runtime_test.go",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            },
+            {
+              "repo": "workflow-runtime-oss-lab",
+              "commit_sha": "33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6",
+              "file": ".github/workflows/ci.yml",
+              "test_or_measurement": "Linux Go race checks + Go 1.23/1.24 on Linux/Windows",
+              "source_url": "https://github.com/afimeth/workflow-runtime-oss-lab/blob/33df6e7f4e4d77791becc0cb6fe2c41f39b9dff6/.github/workflows/ci.yml",
+              "ci_url": "https://github.com/afimeth/workflow-runtime-oss-lab/actions/runs/37137592153",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built a Go DAG execution lab with bounded concurrency, adapter contracts, explicit safe retries, cancellation, and conservative journal recovery.",
+      "remaining_gap": "No Kubernetes execution, Argo integration, upstream contribution, distributed scheduler, OSS maintainer record or on-call history.",
+      "estimated_interview_readiness": "Go/DAG demonstration ready; stretch application. Estimated 3\u20135 days focused Kubernetes/Argo practice, with an actual upstream contribution still open. This estimate does not claim qualification.",
+      "application_state": "PORTFOLIO_READY_STRETCH_APPLICATION"
+    },
+    {
+      "company": "LI.FI",
+      "role": "Smart Contract Engineer / Mid-Senior EVM family",
+      "posting": "https://jobs.ashbyhq.com/li.fi/0d0fe49e-4ecf-4973-a1fa-74d624ca065d",
+      "posting_status": "NO_LIVE_POSTING_CONFIRMED_EMPTY_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Threat-model router access, slippage, replay and reentrancy",
+          "evidence": [
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "test/Router.t.sol",
+              "test_or_measurement": "testAccessControl; testSlippageRollsBackNonceAndBalances; testReentrancyRejected; testReplayRejected",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/test/Router.t.sol",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            },
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "docs/SECURITY_REVIEW.md",
+              "test_or_measurement": "author security analysis; explicitly not an independent audit",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/docs/SECURITY_REVIEW.md",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Fuzz output guarantees and handler conservation",
+          "evidence": [
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "test/Router.t.sol",
+              "test_or_measurement": "testFuzz_OutputAndConservation; testFuzz_SlippageAlwaysReverts; invariant_Conservation; invariant_NoRouterResidue",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/test/Router.t.sol",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Measure gas and separate network replay domains safely",
+          "evidence": [
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "docs/GAS_SNAPSHOT.txt",
+              "test_or_measurement": "gas measurement under Foundry 1.8.4 / Solidity 0.8.28",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/docs/GAS_SNAPSHOT.txt",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            },
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "test/Router.t.sol",
+              "test_or_measurement": "testChainDomainSeparation; testCallerDomainSeparation",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/test/Router.t.sol",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            },
+            {
+              "repo": "solidity-multichain-security-lab",
+              "commit_sha": "31f25a16bba671f6bb5347d90e797c0f3a24e92b",
+              "file": "script/Deploy.s.sol",
+              "test_or_measurement": "chain 31337-only local deployment guard",
+              "source_url": "https://github.com/afimeth/solidity-multichain-security-lab/blob/31f25a16bba671f6bb5347d90e797c0f3a24e92b/script/Deploy.s.sol",
+              "ci_url": "https://github.com/afimeth/solidity-multichain-security-lab/actions/runs/37137599899",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built a local Foundry routing-security lab with access-control, replay-domain, slippage and reentrancy tests, fuzz cases, conservation invariants, and gas measurements.",
+      "remaining_gap": "Employer public board returned zero jobs. No actual bridge, ERC20 behavior coverage, Yul, multisig production actions, independent audit, real multi-chain deployment, or advertised years of Solidity experience.",
+      "estimated_interview_readiness": "Local exercise walkthrough ready; targeted senior-role readiness is not established. Estimated 1\u20132 weeks of additional ERC20/bridge/Yul practice cannot replace years of experience.",
+      "application_state": "HOLD_POSTING_AND_EXPERIENCE_CONFIRMATION"
+    },
+    {
+      "company": "Tradeify",
+      "role": "Design Engineer",
+      "posting": "https://jobs.ashbyhq.com/tradeify/e5571e41-3c4f-4493-9de7-60b80e3969d0",
+      "posting_status": "OBSERVED_ON_LIVE_BOARD",
+      "scenarios": [
+        {
+          "scenario": "Brief -> working responsive product with clear hierarchy",
+          "evidence": [
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "src/App.tsx",
+              "test_or_measurement": "journal filtering, review, risk-limit settings",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/src/App.tsx",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            },
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "docs/DESIGN_RATIONALE.md",
+              "test_or_measurement": "palette/type/layout decisions and rejected direction",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/docs/DESIGN_RATIONALE.md",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Demonstrate accessible interaction, persistence and empty/error states",
+          "evidence": [
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "src/App.test.tsx",
+              "test_or_measurement": "8 component tests",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/src/App.test.tsx",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            },
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "e2e/product.spec.ts",
+              "test_or_measurement": "desktop/modal axe + focus return; mobile no overflow; persisted settings",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/e2e/product.spec.ts",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            }
+          ]
+        },
+        {
+          "scenario": "Ship static product and constrain asset cost",
+          "evidence": [
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": "scripts/budget.mjs",
+              "test_or_measurement": "85,000 gzip-byte JS/CSS budget",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/scripts/budget.mjs",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            },
+            {
+              "repo": "design-engineering-product-lab",
+              "commit_sha": "4a64601086b2b673031fdc59dd673accdcde45a3",
+              "file": ".github/workflows/demo.yml",
+              "test_or_measurement": "successful GitHub Pages static deployment",
+              "source_url": "https://github.com/afimeth/design-engineering-product-lab/blob/4a64601086b2b673031fdc59dd673accdcde45a3/.github/workflows/demo.yml",
+              "ci_url": "https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137669803",
+              "ci_status": "success"
+            }
+          ]
+        }
+      ],
+      "safe_cv_claim": "Built a responsive React/TypeScript session journal with stateful review/filtering, validated persisted settings, keyboard/modal checks, automated accessibility checks, and a measured asset-size budget.",
+      "remaining_gap": "No brokerage integration, measured conversion uplift, professional brand-collateral record, full manual screen-reader audit or production client history. AI assistance is disclosed.",
+      "estimated_interview_readiness": "Application portfolio ready now; estimated 2\u20134 hours to rehearse the design walkthrough and short practical exercise. No interview pass or hiring outcome is predicted.",
+      "application_state": "PORTFOLIO_READY_NOW"
+    }
+  ],
+  "role_sources": {
+    "dualentry": {
+      "status": "OBSERVED",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/dualentry",
+      "matched_jobs": [
+        {
+          "title": "Senior/Staff Backend Engineer",
+          "url": "https://jobs.ashbyhq.com/dualentry/bb7da28b-f93b-42ff-87dd-10fde58bb359",
+          "location": "Remote (EMEA, EU, LATAM, UK, NORDICS)",
+          "is_remote": null
+        }
+      ],
+      "absent_from_returned_board": [
+        "Hardcore Engineer (All Levels)"
+      ],
+      "returned_job_count": null
+    },
+    "livekit": {
+      "status": "OBSERVED",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/livekit",
+      "matched_jobs": [
+        {
+          "title": "Senior Product Engineer",
+          "url": "https://jobs.ashbyhq.com/livekit/463e2769-bb85-4429-96a3-3a175eb228cd",
+          "location": "North America",
+          "is_remote": true
+        }
+      ],
+      "absent_from_returned_board": [],
+      "returned_job_count": null
+    },
+    "pipekit": {
+      "status": "OBSERVED",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/pipekit",
+      "matched_jobs": [
+        {
+          "title": "OSS & Product Engineer",
+          "url": "https://jobs.ashbyhq.com/pipekit/e52eee8a-2d57-4127-94cc-41952aa38dcb",
+          "location": "Remote",
+          "is_remote": true
+        }
+      ],
+      "absent_from_returned_board": [],
+      "returned_job_count": null
+    },
+    "li.fi": {
+      "status": "OBSERVED",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/li.fi",
+      "matched_jobs": [],
+      "absent_from_returned_board": [
+        "Mid/Senior Smart Contract Engineer",
+        "Smart Contract Engineer"
+      ],
+      "returned_job_count": 0
+    },
+    "tradeify": {
+      "status": "OBSERVED",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/tradeify",
+      "matched_jobs": [
+        {
+          "title": "Design Engineer",
+          "url": "https://jobs.ashbyhq.com/tradeify/e5571e41-3c4f-4493-9de7-60b80e3969d0",
+          "location": "Remote \u2013 USA",
+          "is_remote": true
+        }
+      ],
+      "absent_from_returned_board": [],
+      "returned_job_count": null
+    }
+  },
+  "lab_ci_jobs_passed": 32,
+  "new_lab_ci_jobs_passed": 20,
+  "existing_lab_ci_jobs_passed": 12,
+  "local_test_summary": {
+    "new_python_backend": 16,
+    "new_python_realtime": 15,
+    "new_go": 17,
+    "new_foundry_reported": 16,
+    "new_react_unit": 8,
+    "new_chromium_browser": 3,
+    "existing_labs": 30,
+    "combined_reported_checks": 105,
+    "caveat": "Foundry groups two invariant predicates into one campaign. Fuzz iterations are not added as separate test counts."
+  },
+  "unsupported_global_claims": [
+    "years of experience",
+    "degrees",
+    "CVEs",
+    "production scale",
+    "mainnet ownership",
+    "independent audits",
+    "employer affiliation",
+    "confirmed interview questions"
+  ],
+  "duplicate_review_scope": "Initial GitHub metadata inventory: 22 repositories, 12 public. Relevant public lab implementations and public UI/mobile/profile README surfaces inspected; forks not attributed as original work. Private code and exhaustive histories were not inspected. Existing three labs remain unchanged. New labs cover distinct scenarios.",
+  "optional_performance_repo": "Not created: backend and Go benchmark harnesses already supply local evidence without another duplicate project.",
+  "demo_url": "https://afimeth.github.io/design-engineering-product-lab/",
+  "estimate_status": "Planning estimates, not measured interview success or experience equivalence."
+}
