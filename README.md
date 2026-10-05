@@ -2,7 +2,7 @@
 
 Eight small, runnable public interview labs covering transactional backend, async product systems, Go workflows, Solidity security, React product design, and applied AI boundaries.
 
-[Full coverage matrix](PORTFOLIO_COVERAGE.md) Â· [Exact evidence receipt](PORTFOLIO_RECEIPT.json) Â· [Application-ready project bullets](APPLICATION_READY.md) Â· [Live product demo](https://afimeth.github.io/design-engineering-product-lab/)
+[Full coverage matrix](PORTFOLIO_COVERAGE.md) · [Exact evidence receipt](PORTFOLIO_RECEIPT.json) · [Application-ready project bullets](APPLICATION_READY.md) · [Live product demo](https://afimeth.github.io/design-engineering-product-lab/)
 
 All eight lab heads have successful Linux/Windows CI matrices (32 jobs). The five newly built labs contribute 75 reported checks; the three existing labs contribute 30. Foundry groups two invariant predicates into one campaign, and fuzz iterations are not inflated into separate tests.
 
