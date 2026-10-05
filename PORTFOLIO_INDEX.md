@@ -14,6 +14,6 @@ Small, runnable AI-assisted labs with synthetic inputs. Source links pin exact c
 | design-engineering-product-lab | [4a64601086b2](https://github.com/afimeth/design-engineering-product-lab/tree/4a64601086b2b673031fdc59dd673accdcde45a3) | 11 | [success](https://github.com/afimeth/design-engineering-product-lab/actions/runs/37137671237) | [Open](https://afimeth.github.io/design-engineering-product-lab/) |
 | coding-agent evaluator fixture | [9c21a7afa059](https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator) | 12 | [success](https://github.com/afimeth/software-interview-portfolio/actions/runs/37152878281) | [Open](https://github.com/afimeth/software-interview-portfolio/tree/9c21a7afa059a1fe475e94b74f98724366e22827/evaluator) |
 
-[Claim wording and limitations](career/CLAIM_REGISTRY.md) Â· [Application packs](career/APPLICATION_PACKS.md) Â· [Website cards](career/site-cards.json)
+[Claim wording and limitations](career/CLAIM_REGISTRY.md) · [Application packs](career/APPLICATION_PACKS.md) · [Website cards](career/site-cards.json)
 
 Existing eight labs report 105 checks across their recorded suites; this extension adds 12 checks and 5 patch/spec cases. Fuzz iterations and repeated mutant-suite executions are not counted as additional unique tests.
